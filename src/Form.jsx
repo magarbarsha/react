@@ -1,3 +1,4 @@
+import Button from "./component/Button.jsx"
 function Form2(){
     return (
         
@@ -14,6 +15,7 @@ function Form2(){
             <input type="submit" name="submit" value="submit" />
            
           </form>
+          <Button haha="login" />
         </div>
          
     )

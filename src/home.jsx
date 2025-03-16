@@ -1,8 +1,11 @@
-function Home(){
+import Button from "./component/Button.jsx"
+function Home(props){
     return(
-        <h1>
-            this is a home page
-        </h1>
+        <div>
+           <h1>{props.content}</h1>
+           <Button text="logout" />
+           <Button text="register" />
+        </div>
     )
 }
 export default Home
